@@ -1,6 +1,6 @@
 # veriserve: Verifiable LLM Serving Engine
 
-[**Blog**](https://haoailab.com/blogs/verifiable-llm-infra/) | [**X**](https://x.com/haoailab)
+[**Blog**](https://haoailab.com/blogs/verifiable-llm-infra/) | [**X**](https://x.com/haoailab/status/2120595980659917024)
 
 `veriserve` is a verifiable LLM serving engine with Prefill-Decode disaggregation built on [`mini-sglang`](https://github.com/sgl-project/mini-sglang) and [Mooncake](https://github.com/kvcache-ai/Mooncake) GPUDirect RDMA with [`vstack`](https://github.com/hao-ai-lab/vstack). It replaces scattered local counters and timeout heuristics with a single versioned KV page state machine, **`PdLedger`**, enforcing **Isolation**, **Integrity**, **Finality**, and **Conservation**.
 
